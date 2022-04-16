@@ -27,7 +27,7 @@ SECRET_KEY = 'oiem_@$!sgq$-^gb749#yytod_3)os90y80@0fzh0y(zqu*q1e'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'employeedb.co3yjozheehj.us-west-2.rds.amazonaws.com', '0.0.0.0', 'localhost', '127.0.0.1'
+    ' ec2-35-162-141-108.us-west-2.compute.amazonaws.com', '0.0.0.0', 'localhost', '127.0.0.1', '35.162.141.108'
 ]
 
 
@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'employee_db',
         'USER': 'postgres',
         'PASSWORD': 'admin123',
-        "HOST": "localhost"
+        "HOST": "employeedb.co3yjozheehj.us-west-2.rds.amazonaws.com"
     }
 }
 
